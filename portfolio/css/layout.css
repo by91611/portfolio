@@ -8,9 +8,10 @@ header {
     font-size: 1rem;
     font-weight: 200;
     color: #fff;
+}
+header .wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 0 2%;
     align-items: center;
 }
 header.black {
