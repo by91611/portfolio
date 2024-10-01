@@ -68,10 +68,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    gap: 60px;
+    gap: 40px;
 }
 .about .cnt ul.depth1 > li  {
-    width: 400px;
+    width: 380px;
 }
 .about .cnt ul.depth1 > li > h3 {
     font-size: var(--txt-size-txt);
