@@ -88,6 +88,11 @@
 .about .cnt ul.depth2 > ul > li {
     padding-bottom: 15px;
 }
+.about .cnt ul.depth2 > ul > li > strong {
+    display: inline-block;
+    width: 80px;
+    margin-right: 20px;
+}
 
 
 .hlsi {

@@ -8,6 +8,8 @@
     <script src="portfolio/js/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="portfolio/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="portfolio/css/fullpage.css">
     <link rel="stylesheet" href="portfolio/css/main.css">
@@ -45,7 +47,7 @@
         </section>
         <section class="section about"> 
             <div class="wrapper">
-                <div class="tit">
+                <div class="tit" data-aos="fade-up">
                     <h2>ABOUT</h2>
                     <span>안녕하세요. 웹퍼블리셔 <em>김보연</em>입니다.</span>
                     <p>사용자와 클라이언트 모두가 만족할 수 있는 웹 환경을 만드는 것을 목표로 하고 있습니다. 앞으로 더 많은 경험을 쌓아가며 꾸준히 발전하는 모습 보여드리겠습니다.</p>
@@ -226,5 +228,12 @@
             </div>
         </section>
     </div>
+    <script>// 반드시 콘텐츠 하단에 배치해야 한다.
+        AOS.init({
+        offset: 150, // 해당 콘텐츠가 하단에서 몇 px 위로 올라와에 나타나는 효과가 나타날지 셋팅하는 값
+        duration: 500, // 애니메이션 효과가 작동되는 시간
+        easing: 'ease', // 가속도
+        });
+    </script>
 </body>
 </html>
