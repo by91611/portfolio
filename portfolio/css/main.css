@@ -43,7 +43,7 @@
     align-items: center;
 }
 .about .tit {
-    width: calc(100% - 700px);
+    width: calc(100% - 800px);
 }
 .about .tit h2 {
     font-size: var(--txt-size-tit);
@@ -62,16 +62,13 @@
     padding-top: 450px;
 }
 .about .cnt {
-    width: 670px;
+    width: 800px;
 }
 .about .cnt ul.depth1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: 60px;
-}
-.about .cnt ul.depth1 > li  {
-    width: 300px;
 }
 .about .cnt ul.depth1 > li > h3 {
     font-size: var(--txt-size-txt);
